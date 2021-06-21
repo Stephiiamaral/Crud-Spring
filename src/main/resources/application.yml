@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    show-sql: true
+    database: mysql
+    hibernate:
+      ddl-auto: none
+  datasource:
+    url: jdbc:mysql://localhost:3306/salaobeleza
+    username: root
+    password:
